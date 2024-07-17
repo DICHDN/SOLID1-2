@@ -41,7 +41,7 @@ int main()
     std::cin >> a;
     std::cout << "Введите чила: ";
     std::set<int> userSet;
-    for (int i = 0; i < a - 1; ++i)
+    for (int i = 0; i < a; ++i)
     {
         int b = 0;
         std::cin >> b;
