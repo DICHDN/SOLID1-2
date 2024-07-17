@@ -43,8 +43,9 @@ int main()
     std::set<int> userSet;
     for (int i = 0; i < a - 1; ++i)
     {
-        std::cin >> a;
-        userSet.insert(a);
+        int b = 0;
+        std::cin >> b;
+        userSet.insert(b);
     }
     std::list<int> userList;    
     for (const auto & elem : userSet)    
